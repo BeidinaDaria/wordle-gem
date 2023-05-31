@@ -1,31 +1,28 @@
-# GemWordle
 
-TODO: Delete this and the text below, and describe your gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/GemWordle`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Использование
 
-## Installation
+Чтобы поиграть подключите гем и воспользуйтесь командой
+GemWordle.play
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Вам будет предложенно угадать слово случайной длины за n попыток 
 
-Install the gem and add to the application's Gemfile by executing:
+(зависит от слова)
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+Если слово слишком короткое или непраильное ваши попытки не тратятся
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Использовав попытку вы узнаете какие буквы правильные и стоят на своем месте
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+(отмечены зеленым)
 
-## Usage
+какие буквы правильные, но не на своем месте (отмечены желтым)
 
-TODO: Write usage instructions here
+и те буквы, которых нет в загаданном слове (серые)
 
-## Development
+Сообщение о том, что слова нет означает лишь, что его нет в нашем словаре
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+так что оно может быть вполне настоящим
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Удачи!!!
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/GemWordle.
+## 
