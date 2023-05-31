@@ -15,7 +15,7 @@ module GemWordle
 
   def self.play
 
-    path = "X:/home/Gem/GemWordle/lib/words.txt"
+    path = "lib/words.txt"
     file = File.new(path,"r:UTF-8")
     pull = file.readlines
     r = rand(0..pull.length-1)
@@ -61,7 +61,8 @@ module GemWordle
   def self.string_compare(user_word,system_word)
     user_word.downcase!
     system_word.downcase!
-    path = "X:/home/Gem/GemWordle/lib/words.txt"
+    path = "lib/words.txt"
+    #path = "X:/home/Gem/GemWordle/lib/words.txt"
     file = File.new(path,"r:UTF-8")
     pull = file.readlines
     user_word = user_word +"\n"
